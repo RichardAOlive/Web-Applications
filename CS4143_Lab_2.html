@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<title> Olive's Restaurant </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="inputs.js"></script>
+<h1>Olive's Restaurant</h1>
+<a href ="CS4143_lab_1.html"> Home</a>
+&nbsp;&nbsp;&nbsp; <a href ="CS4143_lab_1_Menu.html"> Menu</a>
+&nbsp;&nbsp;&nbsp; <a href ="CS4143_lab_2_1.html"> About Us </a>
+&nbsp;&nbsp;&nbsp; <a href ="CS4143_Lab_2.html"> Contact Us</a>
+
+<form id="frm1">
+    <fieldset>
+        <legend><h1>Contact Us:</h1></legend>
+        <p style="color:red;"><small>Please fill out the info below. We will be back with you shortly.</small></p>
+        <label for="fname">Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="Email">Email:</label><br>
+        <input type="text" id="Email" name="Email"><br>
+        <label for="Phone">Phone:</label><br>
+        <input type="text" id="Phone" name="Phone"><br>
+        <label for="comments">Comments:</label><br>
+        <textarea name="comments" rows="10" cols="30"></textarea><br>
+        <input type="checkbox" id="custCopy" name="custCopy" value="Yes"
+        <label for="custCopy">Email me a copy</label><br>
+        <p>----------------------------------------------------</p>
+        <p>Preferred method to contact you:</p>
+        <input type="radio" id="custEmail" name="cust_cont" value="custEmail">
+        <label for="custEmail">Email</label><br>
+        <input type="radio" id="custPhone" name="cust_cont" value="custPhone">
+        <label for="custPhone">Phone</label><br>
+        <button type="button" onclick="inputs()">Contact Us</button><br>
+
+    </fieldset>
+</form>
+
+
+<p><i><small>Copyright Olive's Restaurant 2021</small></i></p>
+<a href ="">richard@Olive.com</a>
+
+</body>
+
+</html>
